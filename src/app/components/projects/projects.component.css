@@ -1,0 +1,63 @@
+.bgcustom{
+    background: linear-gradient(-45deg, #f403d1, #64b5f6);
+}
+.mask-custom-1 {
+    backdrop-filter: blur(15px);
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 3em;
+    border: 2px solid rgba(255, 255, 255, .1);
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+    border-color: rgba(103, 8, 103, 0.87);
+}
+.card {
+    position: relative;
+    min-width: 300px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+    transition: .5s;
+    
+  }
+  .card:hover {
+    transform:scale(1.1);
+  }
+.card:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background: rgba(255, 255, 255, .1);
+  z-index: 1;
+  transform: skewY(-5deg) scale(1.5);
+
+  }
+
+.custom-button {
+    display: block;
+    z-index: 2;
+    position:relative;
+    background-color: white;
+    color: black;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    margin: 20px auto 0;
+    line-height: 40px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    box-shadow: 0 5px 10px rgba(0,0,0, .1);
+  }
+
+.custom-button:hover{
+
+}
+  

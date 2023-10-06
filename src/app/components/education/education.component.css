@@ -1,7 +1,10 @@
+.bgcustom{
+    background: linear-gradient(-45deg, #f5b2ec, #64b5f6);
+}
 .skill-list{
     padding-top: 10px;
     padding-left: 20px;
     padding-bottom: 10px;
-    font-weight:600px;
+    font-weight:bold;
     font-size: medium;
 }

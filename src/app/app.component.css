@@ -33,3 +33,8 @@
     border-bottom-right-radius: 5;
     background-origin: padding-box;
 }
+
+.text-custom{
+    color: rgba(209, 216, 220, 0.97);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
