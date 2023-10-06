@@ -1,3 +1,6 @@
+.bgcustom{
+    background: linear-gradient(-45deg,rgb(113, 113, 113), black);
+}
 .row.align-items-center{
     border-radius: 30px !important;
 }
