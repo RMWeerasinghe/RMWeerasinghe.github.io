@@ -19,6 +19,7 @@ This was a website built to showcase my academic qualifications, technical skill
 
 
 ## Webpage Visuals
-![portfolio-image](https://github.com/RMWeerasinghe/RMWeerasinghe.github.io/assets/116697656/d684aa26-42ea-4410-b15a-efbc7335c643)
+![portfolio-web](https://github.com/RMWeerasinghe/RMWeerasinghe.github.io/assets/116697656/3ce54e95-7022-4479-88df-57e5efc5974d)
+
 
 
