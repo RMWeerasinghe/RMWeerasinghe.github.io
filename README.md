@@ -2,7 +2,7 @@
 Portfolio website built in Angular
 
 
-This was a website built to showcase my academic qualifications, technical skills and projects.
+This is a website built to showcase my academic qualifications, technical skills and projects.
 
 ### Technologies Used
 
@@ -19,7 +19,8 @@ This was a website built to showcase my academic qualifications, technical skill
 
 
 ## Webpage Visuals
-![portfolio-web](https://github.com/RMWeerasinghe/RMWeerasinghe.github.io/assets/116697656/3ce54e95-7022-4479-88df-57e5efc5974d)
+
+![Web capture_25-11-2023_191621_rmweerasinghe github io](https://github.com/RMWeerasinghe/RMWeerasinghe.github.io/assets/116697656/385ce1a7-a0bc-4ffa-bb5d-56e33a28259a)
 
 
 
