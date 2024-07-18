@@ -237,6 +237,8 @@ header {
 
 footer {
     padding: 50px 0;
+    background-color: $base-color;
+    color: $background-alt;
 }
 
 .copyright {
@@ -1097,4 +1099,8 @@ footer {
         }
     }
 
+}
+
+footer {
+    background-color: $base-color;
 }
