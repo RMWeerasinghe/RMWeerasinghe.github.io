@@ -34,19 +34,19 @@
 */
 
 // Define base and accent colors
-$base-color: #3498db;
+$base-color: #046b93;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
-$background: #fff;
-$background-alt: #f2f2f5;
+$background: #a6bcd4;
+$background-alt: #a6bcd4;
 
 // Define border colors
 $border: #dcd9d9;
 
 // Define text colors
-$heading: #374054;
-$text: #74808a;
+$heading: #044c67;
+$text: #031a2c;
 
 /*
     ---------------------
@@ -385,6 +385,59 @@ footer {
     }
 }
 
+.typewriter-wrapper {
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .typewriter-text {
+    display: none;
+    position: relative;
+    margin: 2rem auto;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    transform: translateX(50%);
+    padding: 0 2px;
+  }
+  
+  .typewriter-text::after {
+    content: '';
+    position: absolute;
+    left: 2px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border-left: 1px solid white;
+  }
+  
+  .line-1 {
+    animation: type 2s 0.5s steps(30, end) forwards;
+  }
+  
+  .line-1::after {
+    animation: type2 2s 0.5s steps(30, end) forwards;
+  }
+  
+  @keyframes type {
+    0% {
+      transform: translateX(50%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes type2 {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(100% - 1px));
+    }
+  }
+  
+
 #lead-overlay {
     position: absolute;
     height: 100%;
@@ -444,10 +497,16 @@ footer {
     ----- 5. About Styles -----
     ---------------------------
 */
+.container {
+    display: block;
+    max-width: 100%;
+    margin: 10px;
+}
 
 #about {
     padding: 75px 15px;
     border-bottom: 1px solid $border;
+    text-align: center;
 
     h2 {
         color: $heading;
@@ -457,6 +516,15 @@ footer {
         color: $text;
         margin: 0;
     }
+}
+
+.about-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1%;
+    position: relative;
+    align-self: center;
 }
 
 /*
@@ -588,7 +656,7 @@ footer {
 }
 
 .education-block {
-    max-width: 700px;
+    max-width: 60%;
     margin: 0 auto 30px auto;
     padding: 15px;
     border: 1px solid $border;
@@ -631,35 +699,66 @@ footer {
 */
 
 #projects {
-    padding: 50px 15px;
+    padding: 50px 15px 20px 15px;
     border-bottom: 1px solid $border;
     text-align: center;
+
 
     h2 {
         color: $heading;
         margin-bottom: 50px;
     }
+
+    row {
+        margin-left: 50px;
+        margin-right: 50px;
+        width: 50%;
+    }
+    
 }
 
+.project:hover {
+    background-color: #a6e3ff;
+    animation: pulsate 1.5s ease;
+    animation-iteration-count: 1;
+  }
+.project:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 80%;
+  height: 40%;
+  z-index: 1;
+  transform: skewY(-5deg) scale(1.5);
+
+  }
 .project {
     position: relative;
-    max-width: 900px;
+    max-width:fit-content;
     margin: 0 auto 30px auto;
-    overflow: hidden;
+    overflow:visible;
     background: #fff;
     border-radius: 4px;
 }
 
 .project-image {
-    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    position: relative;
+    display: block;
+
 }
 
 .project-info {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    margin-left: 300px;
-    padding: 15px;
+    position: relative;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 
     h3 {
         font-size: 1.5em;
@@ -670,7 +769,7 @@ footer {
 
     p {
         color: $text;
-        margin: 0 0 15px 0;
+        margin: 0 0 0 0;
         font-size: 0.9em;
     }
 }

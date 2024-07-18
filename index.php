@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <div class="typewriter-wrapper">
+                <h1 class="typewriter-text line-1">Ravindi</h1>
+            </div>
+            <div class="typewriter-wrapper">
+                <h1 class="typewriter-text line-1">Weerasinghe</h1>
+            </div>
+            <h2>Computer Science and Engineering Undergadute</h2>
+            <a href="https://drive.google.com/file/d/1hov6pHs3THGh2GDrTy5G6bKnm7aFGAz5/view?usp=sharing" class="btn-rounded-white">Download CV</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <h2 class="heading">About Me</h2>
+            <div class="row justify-content-md center">
+                <div class="col-md-4 text-center">
+                    <img src="images/Ravindi.jpg" class="image.fluid" width="80%">
+                </div>
+                <div class="col-md-8 text-center">
+                    <p>
+                        I am an ambitious undergadute with a passion for technology and a
+                        strong belief in its power to improve the world.
+                        My love for mathematics and computer science has brought me to this point as a
+                        computer science and engineering student.
+                        <br><br>
+                        My field of study, computer science and data science engineering, 
+                        possesses a solid theoretical foundation and extends its abilities through
+                        innovation beyond the theories. Hence, I am eager to apply my academic
+                        knowledge and experience in more practical industry environments.<br>
+                        <br>
+                        Moreover, I aspire to utilize my industrial placements to broaden my
+                        knowledge and enhance my skills while making a valuable contribution towards
+                        the betterment of society through technology.<br>
+                        <br>
+                        <br>
+                        <strong><i>Areas of Interest: Machine Learning, Data Science, Mathematics, Statistics</i></strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+    <div id="education" class="background-alt">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>University of Moratuwa, Katubedda, Sri Lanka</h3>
+            <span class="education-date">2021 - Present</span>
+            <h4>B.Sc. Engineering (Hons)</h4>
+            <p>
+                Specialization: Computer Science and Engineering<br>
+                Stream: Data Science and Engineering
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>Aquinas College of Higher Studies, Colombo 08, Sri Lanka</h3>
+            <span class="education-date">2020 - 2021</span>
+            <h4>Diploma in English Language and Literature</h4>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="experience">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="November 2023 – May 2024">
+                <h3>IronOne Technologies (Pvt) Ltd</h3>
+                <h4>Intern - ML Engineer</h4>
+                <p>
+                    Completed industrial training and worked as an intern ML engineer on a set of NLP and Gen AI projects. 
+                </p>
+            </div>
+        <!--
+            <div data-date="September 2015 – September 2016">
+                <h3>Employer Name</h3>
+                <h4>Job Title</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                </p>
+            </div>
+
+            <div data-date="September 2015 – September 2016">
+                <h3>Employer Name</h3>
+                <h4>Job Title</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                </p>
+            </div>
+        -->
+        </div>
+    </div>
+    <!-- End #experience -->
+
+ 
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row justify-content-md">
+                <div class="project shadow-large w-25">
+                    <div class="row justify-content-md ">
+                        <div class="col-md-4 text-center">
+                            <div class="project-image">
+                                <img src="images/modeldiagram.png" class="image.fluid" width="80%">
+                            </div>
+                            
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="col-md-8 text-center project-info">
+                            <h3>Bus Arrival Time Prediction</h3>
+                            <p>
+                                A Data Science and Enginnering project which uses machine learning concepts for bus arrival time prediction under
+                                heterogeneous traffic conditions. 
+                                <br>
+                                <br>
+                                <b>Contribution:</b> Machine Learning Models
+                                <br>
+                                <b>Languages:</b> Python
+                            </p>
+                            <!--a href="#">View Project</a>-->
+                        </div>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+                <div class="project shadow-large">
+                    <div class="row justify-content-md">
+                        <div class="col-md-4 text-center">
+                            <div class="project-image">
+                                <img src="images/interpreter.PNG" class="image.fluid" width="80%">
+                            </div>
+                            
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="col-md-8 text-center project-info">
+                            <h3>RPAL Interpreter</h3>
+                            <p>
+                                An Interpreter for the functional language RPAL consisting of a scanner, parser and a CSE machine.Implemented as a 
+                                group assignment under CS3513 - Programming Languages.
+                                <br>
+                                <br>
+                                <b>Contribution:</b> Parser
+                                <br>
+                                <b>Languages:</b> Java
+                                <br>
+                                <br>
+                            </p>
+                            <a href="https://github.com/akw2000/rpal_project_group_29">View Project</a>
+                        </div>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!--End .project -->
+
+                <div class="project shadow-large">
+                    <div class="row justify-content-md">
+                        <div class="col-md-4 text-center">
+                            <div class="project-image">
+                                <img src="images/transaction_report.jpg" class="image.fluid" width="80%">
+                            </div>
+                            
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="col-md-8 text-center project-info">
+                            <h3>Bank Transaction Management System</h3>
+                            <p>
+                                A bank transaction management system with a web application implemented as a group project under CS3043-Database systems
+                                    <br>
+                                    <br>
+                                    <b>Contribution: </b> Database, Backend
+                                    <br>
+                                    <b>Languages: </b> Javascript, SQL
+                                    <br>
+                                    <b>Frameworks: </b> Node, Reactjs
+                                    <br>
+                                    <b>Database: </b> MySQL
+                                    <br>
+                                    <br>
+                            </p>
+                            <a href="https://github.com/RMWeerasinghe/Bank-Transaction-Management-System">View Project</a>
+                        </div>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
+                <!--End .project -->
+            </div>
+
+            <!-- Projects Above -->
+
+            <a id="view-more-projects" href="#">View More Projects</a>
+            <div id="more-projects" class="row">
+                <div class="project shadow-large">
+                    <div class="row justify-content-md">
+                        <div class="col-md-4 text-center">
+                            <div class="project-image">
+                                <img src="images/nanoprocessor.jpeg" class="image.fluid" width="80%">
+                            </div>
+                            
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="col-md-8 text-center project-info">
+                            <h3>Nano Processor</h3>
+                            <p>
+                                4-bit nano processor capable of executing 4 instructions. Implemented as a project under 
+                                    CS1050 - Computer Otganiztion and Digital Design
+                                    <br>
+                                    <br>
+                                    <b>Languages:</b> VHDL
+                                    <br>
+                                    <br>
+                            </p>
+                            <a href="https://github.com/RMWeerasinghe/Nano-Processor">View Project</a>
+                        </div>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
+                <!--End .project -->
+
+                <div class="project shadow-large">
+                    <div class="row justify-content-md">
+                        <div class="col-md-4 text-center">
+                            <div class="project-image">
+                                <img src="images/emailclient.png" class="image.fluid" width="80%">
+                            </div>
+                            
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="col-md-8 text-center project-info">
+                            <h3>Email Client</h3>
+                            <p>
+                                A command-line based email client capable of sending emails to stored reciepients, adding new reciepients, 
+                                    and print details of previously sent emails.
+                                    <br>
+                                    <br>
+                                    <b>Languages:</b> Java
+                                    <br>
+                                    <br>
+                            </p>
+                            <a href="https://github.com/RMWeerasinghe/Email-Client">View Project</a>
+                        </div>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>MySQL</li>
+            <li>Power BI</li>
+            <li>Node.js</li>
+            <li>AngularJs</li>
+            <li>Java</li>
+            <li>C++</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+        <?php 
+            if ($_SERVER["REQUEST_METHOD"] == "POST") {
+                $name = strip_tags(trim($_POST["name"]));
+                $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
+                $message = strip_tags(trim($_POST["message"]));
+
+                if (empty($name) || empty($message) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+                    http_response_code(400);
+                    echo "Please fill out all required fields and enter a valid email address.";
+                    exit;
+                }
+
+                $recipient = "ravindiweerasinghe2000@gmail.com";
+                $subject = "New Contact Form Submission";
+                $email_content = "Name: $name\n";
+                $email_content .= "Email: $email\n\n";
+                $email_content .= "Message:\n$message\n";
+
+                $headers = "From: $name <$email>";
+
+                if (mail($recipient, $subject, $email_content, $headers)) {
+                    http_response_code(200);
+                    echo "Thank You! Your message has been sent.";
+                } else {
+                    http_response_code(500);
+                echo "Oops! Something went wrong and we couldn't send your message.";
+            }
+            } else {
+            http_response_code(403);
+            echo "There was a problem with your submission, please try again.";
+            }
+                
+
+            ?>
+            <form method="POST" action="#">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" name="message" placeholder="Message..." required></textarea>
+
+                <input type="submit" value="Send">
+            </form>
+        </div>
+        
+        <!-- End #contact-form -->
+         
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; <span id="current-year">2024</span> Ravindi Weerasinghe
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/RMWeerasinghe" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <!--li>
+                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                        </li>-->
+                        <li>
+                            <a href="https://www.linkedin.com/in/ravindi-weerasinghe" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/share/vciDe75p6Nco1F8d/?mibextid=qi2Omg" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <!--
+                        <li>
+                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        </li>
+                        -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>

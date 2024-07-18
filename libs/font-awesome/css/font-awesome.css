@@ -2190,7 +2190,7 @@
 }
 .sr-only-focusable:active,
 .sr-only-focusable:focus {
-  position: static;
+  position: relative;
   width: auto;
   height: auto;
   margin: 0;
