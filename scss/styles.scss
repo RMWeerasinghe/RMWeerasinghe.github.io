@@ -141,12 +141,12 @@ body {
 }
 
 header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
     text-align: center;
-    z-index: 10;
+    z-index: 1000;
     animation-name: dropHeader;
     animation-iteration-count: 1;
     animation-timing-function: ease;
@@ -506,7 +506,7 @@ footer {
 }
 
 #about {
-    padding: 75px 15px;
+    padding: 100px 15px 50px 15px;
     border-bottom: 1px solid $border;
     text-align: center;
 
@@ -536,7 +536,7 @@ footer {
 */
 
 #experience {
-    padding: 50px 15px;
+    padding: 100px 15px 50px 15px;
     text-align: center;
     border-bottom: 1px solid $border;
 
@@ -647,7 +647,7 @@ footer {
 */
 
 #education {
-    padding: 50px 15px 20px 15px;
+    padding: 100px 15px 50px 15px;
     border-bottom: 1px solid $border;
     text-align: center;
 
@@ -701,7 +701,7 @@ footer {
 */
 
 #projects {
-    padding: 50px 15px 20px 15px;
+    padding: 100px 15px 50px 15px;
     border-bottom: 1px solid $border;
     text-align: center;
 
@@ -799,7 +799,7 @@ footer {
 */
 
 #skills {
-    padding: 50px 15px;
+    padding: 100px 15px 50px 15px;
     text-align: center;
 
     h2 {
