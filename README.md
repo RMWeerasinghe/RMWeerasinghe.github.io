@@ -6,11 +6,11 @@ This site showcases my projects, skills, and professional experience. It's built
 The portfolio website is built using [RyanFitzgerald/devportfolio](https://github.com/RyanFitzgerald/devportfolio) template with slight modifications in styles and animations.
 
 ## Features
-About Me: An introduction to who I am, my background, and my interests.
-Education: An overview of academic achievements
-Experience: My professional journey and notable roles I've held.
-Projects: A detailed list of my projects with descriptions, technologies used, and links to live demos or repositories.
-Skills: An overview of my technical skills and proficiencies.
+- About Me: An introduction to who I am, my background, and my interests.
+- Education: An overview of academic achievements
+- Experience: My professional journey and notable roles I've held.
+- Projects: A detailed list of my projects with descriptions, technologies used, and links to live demos or repositories.
+- Skills: An overview of my technical skills and proficiencies.
 
 ## Technologies Used
 - HTML
