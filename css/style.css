@@ -86,6 +86,7 @@ figure {
   transition: 0.5s; }
   @media screen and (max-width: 768px) {
     #colorlib-aside {
+      overflow-y: auto;
       width: 300px;
       -moz-transform: translateX(-300px);
       -webkit-transform: translateX(-300px);
@@ -121,7 +122,9 @@ figure {
       padding-right: .3em; }
   #colorlib-aside #colorlib-main-menu {
     display: block;
-    width: 100%; }
+    width: 100%;
+    margin-bottom: 20px;
+   }
     #colorlib-aside #colorlib-main-menu .collapse {
       display: block !important; }
     #colorlib-aside #colorlib-main-menu ul {
